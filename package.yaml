@@ -2,9 +2,9 @@ name:                tictactoe
 version:             0.1.0.0
 github:              "githubuser/tictactoe"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2021 Author name here"
+author:              "Adam Rowland"
+maintainer:          "rowland.adam0@gmail.com"
+copyright:           "2021 Adam Rowland"
 
 extra-source-files:
 - README.md
@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/tictactoe#readme>
+description:         Please see the README on GitHub at <https://github.com/Azzajazz/hs-tictactoe#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -34,7 +34,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - tictactoe
+    - hs-tictactoe
 
 tests:
   tictactoe-test:
@@ -45,4 +45,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - tictactoe
+    - hs-tictactoe
