@@ -1,4 +1,4 @@
-name:                tictactoe
+name:                hs-tictactoe
 version:             0.1.0.0
 github:              "githubuser/tictactoe"
 license:             BSD3
@@ -26,7 +26,7 @@ library:
   source-dirs: src
 
 executables:
-  tictactoe-exe:
+  hs-tictactoe-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -37,7 +37,7 @@ executables:
     - hs-tictactoe
 
 tests:
-  tictactoe-test:
+  hs-tictactoe-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:

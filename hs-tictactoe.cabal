@@ -4,9 +4,9 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 906f8ff209f4d9b5e26c4d3462dc447f349e746752f696ee9f2856effc876645
+-- hash: 8eb141c003725a2fa03233fe7de35e2be15bc8bef196f3aa162125ab653992a2
 
-name:           tictactoe
+name:           hs-tictactoe
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/Azzajazz/hs-tictactoe#readme>
 homepage:       https://github.com/githubuser/tictactoe#readme
@@ -30,17 +30,17 @@ library
       Board
       Player
   other-modules:
-      Paths_tictactoe
+      Paths_hs_tictactoe
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
   default-language: Haskell2010
 
-executable tictactoe-exe
+executable hs-tictactoe-exe
   main-is: Main.hs
   other-modules:
-      Paths_tictactoe
+      Paths_hs_tictactoe
   hs-source-dirs:
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
@@ -49,11 +49,11 @@ executable tictactoe-exe
     , hs-tictactoe
   default-language: Haskell2010
 
-test-suite tictactoe-test
+test-suite hs-tictactoe-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Paths_tictactoe
+      Paths_hs_tictactoe
   hs-source-dirs:
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
