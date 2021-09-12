@@ -7,7 +7,7 @@ stack build
 
 To run the compiled program, do
 ```
-stack exec tictactoe-exe
+stack exec hs-tictactoe-exe
 ```
 ## Requires
 `stack` for building purposes
